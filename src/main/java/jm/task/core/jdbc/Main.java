@@ -5,7 +5,6 @@ import jm.task.core.jdbc.util.Util;
 
 public class Main {
     public static void main(String[] args) {
-        Util.getInstance();
         UserServiceImpl userService = new UserServiceImpl();
         userService.createUsersTable();
 
